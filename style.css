@@ -1,0 +1,38 @@
+.heading
+{
+    width: 100%;
+    font-size: 25px;
+    margin: 0px;
+    box-shadow: 2.5px 2.5px 2.5px yellow;
+}
+
+.note
+{
+    font-size: 19px;
+    color: black;
+}
+
+footer
+{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    background-color: grey;
+    font-size: 18px;
+    line-height: 2;
+    color: black;
+}
+
+canvas
+{
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 2.5px 2.5px 2.5px orange;
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
